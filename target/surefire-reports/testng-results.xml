@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19973" started-at="2020-04-03T14:47:22Z" finished-at="2020-04-03T14:47:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19973" started-at="2020-04-03T14:47:22Z" finished-at="2020-04-03T14:47:42Z">
+      <class name="AirVistaraTest.RoundTripFlightSearch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AirVistaraTest.RoundTripFlightSearch@5be6e01c]" name="initialize" is-config="true" duration-ms="7819" started-at="2020-04-03T14:47:22Z" finished-at="2020-04-03T14:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="RoundTrip()[pri:0, instance:AirVistaraTest.RoundTripFlightSearch@5be6e01c]" name="RoundTrip" duration-ms="12099" started-at="2020-04-03T14:47:30Z" finished-at="2020-04-03T14:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoundTrip -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:AirVistaraTest.RoundTripFlightSearch@5be6e01c]" name="closeBrowser" is-config="true" duration-ms="44" started-at="2020-04-03T14:47:42Z" finished-at="2020-04-03T14:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AirVistaraTest.RoundTripFlightSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
