@@ -19,7 +19,7 @@ import pageObjects.PassengerDetails;
 import resources.base;
 
 public class RoundTripFlightSearch extends base {
-	private static final Logger log = LogManager.getLogger(RoundTripFlightSearch.class.getName());
+	public static final Logger log = LogManager.getLogger(RoundTripFlightSearch.class.getName());
 
 	// Initializing the browser mentioned in properties file.
 	// Change browser=IE for Microsoft Internet Explorer Browser

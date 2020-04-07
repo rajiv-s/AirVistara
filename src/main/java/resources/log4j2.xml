@@ -18,8 +18,11 @@
 		<Logger name="AirVistaraTest.RoundTripFlightSearch" level="trace" additivity="true">
 			<appender-ref ref="File" level="trace" />
 		</Logger>
+		<Logger name="AirVistaraTest.OneWayTripFlightSearch" level="trace" additivity="true">
+			<appender-ref ref="Console" level="trace" />
+		</Logger>
 		<Root level="trace" additivity="false" >			
-			<Appender-ref ref="File" />
+			<Appender-ref ref="Console" />
 		</Root>
 	</Loggers>
 </Configuration>
